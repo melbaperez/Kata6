@@ -2,13 +2,13 @@ package factories.regionalfactories;
 
 import factories.ToyFactory;
 import toyproduct.Toy;
-import toyproduct.models.AmericanSubmarineToy;
+import toyproduct.models.AmericanCarToy;
 
 public class AmericanSubmarineToyFactory extends ToyFactory {
     
     @Override
     public Toy createToy(Integer serialNumber){
-        return new AmericanSubmarineToy(serialNumber);
+        return new AmericanCarToy(serialNumber);
         
     }
     
